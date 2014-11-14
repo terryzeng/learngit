@@ -3,23 +3,24 @@
  */
 #include <iostream>
 
-using namespace std;
+//using namespace std::cout;
+//using namespace std::endl;
 
 int read(){
 
-    cout << "read()" << endl;
+    std::cout << "read()" << std::endl;
 }
 
 void sort(){
-    cout << "sort()" << endl;
+    std::cout << "sort()" << std::endl;
 }
 
 void compact(){
-    cout << "compact()" << endl;
+    std::cout << "compact()" << std::endl;
 }
 
 void write(){
-    cout << "write()" << endl;
+    std::cout << "write()" << std::endl;
 }
 
 int main(){
@@ -31,7 +32,7 @@ int main(){
     }
     
     if (count == 0)
-        cout << "no sales for this month" << endl;
+        std::cout << "no sales for this month" << std::endl;
     else 
         write();
     
